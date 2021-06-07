@@ -192,7 +192,7 @@ See live:
 
 ### Goals:  
 
-I have spent a total of 1 hour building this project.
+I have spent a total of 3 hours building this project.
 
 ## Support me
 

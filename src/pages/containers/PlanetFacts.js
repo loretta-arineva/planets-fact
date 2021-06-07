@@ -1,10 +1,13 @@
 import React from 'react';
+import PlanetNavigation from '../components/PlanetFactsComponents/PlanetFactsNavigation';
 
 const PlanetFacts = () => {
     return (
-        <div>
-            
-        </div>
+        <section id="planet-facts">
+            <PlanetNavigation planet="mercury">
+
+            </PlanetNavigation>
+        </section>
     )
 }
 

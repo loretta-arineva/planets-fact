@@ -1,36 +1,52 @@
-// h1 {
-//     font-family: 'Visia Pro', Arial, serif;
-//     font-style : bold;
-//     font-size  : 42px;
-// }
+body {
+    font-family: Spartan, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
 
-// h2 {
-//     font-family: 'Visia Pro', Arial, sans-serif;
-//     font-size  : 30px;
-//     font-weight: bold;
-//     line-height: 35px;
-// }
 
-// h3 {
-//     font-family: 'Visia Pro', Arial, sans-serif;
-//     font-size  : 24px;
-//     line-height: 32px;
-// }
+h1,
+h2 {
+    font-family: Antonio, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
 
-// h4 {
-//     font-family: 'Visia Pro', Arial, sans-serif;
-//     font-size  : 18px;
-//     font-weight: bold;
-//     line-height: 20px;
-// }
+h1 {
+    font-size: 80px;
+}
 
-// p {
-//     font-family: 'Visia Pro', Arial, sans-serif;
-//     font-size  : 16px;
-//     font-weight: 400;
-//     line-height: 20px;
-// }
+h2 {
+    font-size     : 40px;
+    letter-spacing: -1.5px;
+}
 
-// span {
-//     font-family: 'Visia Pro', Arial, sans-serif;
-// }
+h3,
+h4 {
+    font-family: Spartan, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size     : 12px;
+    letter-spacing: 2.6px;
+}
+
+h4 {
+    font-size     : 11px;
+    letter-spacing: 1px;
+}
+
+
+// Component typography
+.logo {
+    font-family: Antonio, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.navigation__planets {
+    ul {
+        li {
+            font-family: Spartan, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+        }
+    }
+}
