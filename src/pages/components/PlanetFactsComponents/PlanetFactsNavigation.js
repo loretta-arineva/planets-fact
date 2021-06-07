@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from '../UI/Navigation/NavBody';
 import ListItems from '../UI/Navigation/NavSceleton';
 
-const PlanetFactsNavigation = ({planet}) => {
+const PlanetFactsNavigation = ({ planet }) => {
     const url = `/${planet}`
     return (
         <Navigation className="navigation__planets">
