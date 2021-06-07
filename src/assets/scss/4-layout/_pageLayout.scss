@@ -1,5 +1,14 @@
-section {
-    width: 70%;
-    margin: 0 auto 90px;
-    margin-top: 22vh;
+body {
+    width: 100%;
+    height: auto;
+    color: $mainTextColor;
+    background-color: $mainBgColor;
+    background-image: url('../../images/background-stars.svg');
+    background-position: right center;
+    background-position: right top;
+    // background-position: left center;
+    // background-position: center center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

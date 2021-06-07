@@ -1,15 +1,15 @@
-import React, { useState} from 'react';
+import React from 'react';
 
 import Logo from '../components/HeaderComponents/Logo';
 import HeaderNavigation from '../components/HeaderComponents/HeaderNavigation';
+import SideDrawer from '../components/HeaderComponents/SideDrawer';
 
 const Header = () => {
-    // const [state, setstate] = useState(initialState)
-    
     return (
         <header>
             <Logo></Logo>
             <HeaderNavigation />
+            <SideDrawer />
         </header>
     )
 }

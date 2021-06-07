@@ -2,8 +2,8 @@ import React from 'react';
 
 const SideDrawer = () => {
     return (
-        <div >
-            
+        <div className="sidedrawer">
+            <p>Hi</p>
         </div>
     )
 }
