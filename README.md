@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/loretta-arineva/planets-fact/">
-    <img src="./src/logo.svg" alt="Logo" width="80" height="80">
+    <img src="./public/android-chrome-192x192.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">Planets fact site</h1>
