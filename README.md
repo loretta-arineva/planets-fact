@@ -8,7 +8,7 @@
   <h1 align="center">Planets fact site</h1>
 
   <p align="center">
-     Front-End Mentor Challenge Solution with React and SASS
+     Front-End Mentor Challenge Solution with React, React Router and SASS (Still in development)
     <br />
     <a href="https://github.com/loretta-arineva/planets-fact/#readme"><strong>Explore the docs »</strong></a>
     <br />
