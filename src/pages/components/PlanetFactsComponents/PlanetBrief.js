@@ -1,13 +1,45 @@
-import React from 'react';
+import React, { useReducer, useEffect } from 'react';
+import { planetData } from '../../../assets/data/data';
 
-const PlanetBrief = ({imgUrl, planetBrief}) => {
+const initialState = {
+    imgUrl: "planet"
+}
+
+const reducer = (state, action) => {
+    switch (action.type) {
+        case "overview":
+            return { imgUrl: "planet" };
+        case "structure":
+            return { imgUrl: "internal" };
+        case "surface":
+            return { imgUrl: "planet" };
+        default:
+            throw new Error();
+
+    }
+}
+
+const PlanetBrief = ({ imgUrl, planet, specs }) => {
+    const [state, dispatch] = useReducer(reducer, initialState,);
+    const activePlanet = planetData.find(singlePlanet => {
+        return singlePlanet.name.toLowerCase() === planet;
+    });
+
+    useEffect(() => {
+        dispatch({ type: specs });
+    }, [specs]);
+   
     return (
         <div>
             <div className="planet-image__container">
-                <img src="" alt="" />
+                <img src={activePlanet.images[state.imgUrl]} alt="" />
+                {specs === "surface" ? (
+                <img src={activePlanet.images["geology"]} alt="" />
+
+                ): ""}
             </div>
             <div className="planet-text__container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo molestias assumenda ipsa unde corrupti voluptatibus repudiandae veritatis laborum, nam hic perspiciatis error aperiam laudantium atque ducimus, tenetur amet natus voluptas?</p>
+                <p>{activePlanet[specs].content}</p>
             </div>
         </div>
     )
