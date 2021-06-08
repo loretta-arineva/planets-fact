@@ -11,9 +11,9 @@ const PlanetFacts = () => {
 
     return (
         <section id="planet-facts">
-            <PlanetNavigation planet={planet} />
-            <PlanetBrief planet={planet}/>
-            <PlanetMetaData planet={planet}/>
+            <PlanetNavigation planet={planet || "mercury"} />
+            <PlanetBrief planet={planet || "mercury"}/>
+            <PlanetMetaData planet={planet || "mercury"}/>
         </section>
     )
 }
