@@ -4,12 +4,15 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import '../../assets/scss/main.scss';
 
 import Home from './PlanetFacts';
+import SideDrawer from '../components/HeaderComponents/SideDrawer';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
+        <SideDrawer />
+
         <Switch>
           <Route path="/:planet/:specs" >
             <Home />

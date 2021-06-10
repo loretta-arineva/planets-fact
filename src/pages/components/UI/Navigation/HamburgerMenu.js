@@ -24,8 +24,10 @@ const HamburgerMenu = () => {
 
         if (sidedrawer.classList.contains("open")) {
             document.body.querySelector(".side-drawer").classList.remove('open');
+            document.body.classList.remove('lock-screen');
         } else {
             document.body.querySelector(".side-drawer").classList.add('open');
+            document.body.classList.add('lock-screen');
 
         }
     }
