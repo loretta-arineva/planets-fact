@@ -109,6 +109,9 @@ This section lists any major frameworks that I used to build my project.
 * [React Router](https://reactrouter.com/)
 * [SASS](https://sass-lang.com/)
 * [Figma](https://www.figma.com/)
+* Flexbox
+* Mobile-first Workflow
+* Semantic HTML5 markup
 
 
 <!-- GETTING STARTED -->
@@ -149,28 +152,28 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+<!-- This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
 
 
 ## Project Status
 
 
 ### Current
-Basic project setup
+Setting up styles for larger devices.
 
 ### Next steps:
-<!-- - [X] Adding styles for larger devices.
-- [X] Adding a filter by category functionality.
-- [X] Adding a search functionality.
-- [X] Adding a theme color switch.
-- [ ] Adding product screenshots.
+- [ ] Adding styles for larger devices.
+  - [ ] Adding styles for the header menu.
+  - [ ] Adding styles for the planet data.
+- [ ] Adding planet specific color styles.
+- [ ] Adding README screenshots.
 - [ ] Adding a loading component.
-- [ ] Add animations.
-- [ ] Optimizing and refactoring code. -->
+- [ ] Adding animations.
+- [ ] Optimizing and refactoring code.
 
 
 ## Project Screenshots
@@ -192,7 +195,7 @@ See live:
 
 ### Goals:  
 
-I have spent a total of 3 hours building this project.
+I have spent a total of 7 hours building this project.
 
 ## Support me
 
