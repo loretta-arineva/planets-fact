@@ -1,0 +1,39 @@
+@media screen and (min-width: 890px) {
+    header {
+        @include flexItem(center, center, column);
+    }
+
+    .navigation__header {
+        display: inline-block;
+    }
+
+    .hamburger__container {
+        display: none;
+    }
+
+    #planet-facts {
+        .navigation__planets {
+            display: none;
+        }
+
+        .navigation__planets--desktop {
+            display: block;
+        }
+
+        .planet-data__container {
+            @include flexItem(space-between, center, row);
+        }
+
+
+        .planet-overview__container {
+            .planet-text__container {
+                text-align: left;
+                width: 48%;
+            }
+        }
+    }
+
+    .planet-main__container {
+        padding: 20px 50px;
+    }
+}

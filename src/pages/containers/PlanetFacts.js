@@ -10,7 +10,7 @@ const PlanetFacts = () => {
 
     return (
         <section id="planet-facts">
-            <PlanetNavigation planet={planet || "mercury"} />
+            <PlanetNavigation planet={planet || "mercury"} className="navigation__planets" />
             <div className="planet-main__container">
                 <PlanetBrief planet={planet || "mercury"} specs={specs || "overview"} />
                 <PlanetMetaData planet={planet || "mercury"} />
