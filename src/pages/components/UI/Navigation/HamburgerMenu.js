@@ -20,12 +20,12 @@ const HamburgerMenu = () => {
         dispatch(toggle());
         console.log('clicked');
         console.log(state);
-        const sidedrawer = document.body.querySelector(".sidedrawer");
+        const sidedrawer = document.body.querySelector(".side-drawer");
 
         if (sidedrawer.classList.contains("open")) {
-            document.body.querySelector(".sidedrawer").classList.remove('open');
+            document.body.querySelector(".side-drawer").classList.remove('open');
         } else {
-            document.body.querySelector(".sidedrawer").classList.add('open');
+            document.body.querySelector(".side-drawer").classList.add('open');
 
         }
     }

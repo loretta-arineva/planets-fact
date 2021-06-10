@@ -1,9 +1,10 @@
 import React from 'react';
+import SideNavigation from '../UI/Navigation/SideDrawerNavigation';
 
 const SideDrawer = () => {
     return (
-        <div className="sidedrawer">
-            <p>Hi</p>
+        <div className="side-drawer">
+            <SideNavigation></SideNavigation>
         </div>
     )
 }
