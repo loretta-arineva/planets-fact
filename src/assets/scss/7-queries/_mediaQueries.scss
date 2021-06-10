@@ -1,4 +1,5 @@
 @media screen and (min-width: 890px) {
+
     // ----- Header -----
     header {
         @include flexItem(center, center, column);
@@ -10,7 +11,7 @@
 
     .navigation__header {
         display: inline-block;
-        
+
     }
 
 
@@ -32,7 +33,7 @@
         .planet-overview__container {
             .planet-text__container {
                 text-align: left;
-                width: 48%;
+                width     : 48%;
             }
         }
     }
@@ -47,9 +48,9 @@
 
         .planet-data--list__container {
             flex-direction: column;
-            align-items: flex-start;
-            width: 160px;
-            padding: 15px 15px;
+            align-items   : flex-start;
+            width         : 160px;
+            padding       : 15px 15px;
 
             h3 {
                 letter-spacing: 2px;
@@ -62,3 +63,29 @@
     }
 }
 
+// Larger devices
+@media screen and (min-width: 1150px) {
+
+    // ----- Header -----
+    header {
+        @include flexItem(space-between, center, row);
+        padding: 25px 35px;
+        .navigation__header {
+            width     : fit-content;
+            margin-top: 0;
+
+            ul {
+                a {
+                    margin-right: 33px;
+                }
+
+                li:last-child {
+                    a {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}
