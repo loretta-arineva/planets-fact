@@ -1,6 +1,8 @@
 body {
     font-family: Spartan, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 
@@ -11,7 +13,7 @@ h2 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 42px;
 }
 
 h2 {
@@ -35,6 +37,11 @@ h4 {
     letter-spacing: 1px;
 }
 
+p {
+    font-size: 12px;
+    line-height: 2;
+
+}
 
 // Component typography
 .logo {
@@ -42,11 +49,21 @@ h4 {
     font-weight: 600;
 }
 
+// Planet navigation
 .navigation__planets {
     ul {
         li {
             font-family: Spartan, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-weight: bold;
         }
+    }
+}
+
+// Planet data numbers
+
+.planet-data {
+    p {
+        font-family: Antonio, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
     }
 }

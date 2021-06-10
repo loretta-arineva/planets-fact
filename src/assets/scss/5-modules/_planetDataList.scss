@@ -1,0 +1,16 @@
+.planet-data--list__container {
+    @include flexItem(space-between, center, row);
+    margin-bottom: 8px;
+    border: 1px solid $planetsDataBorder;
+    padding: 10px 15px;
+
+    h3 {
+        text-transform: uppercase;
+    }
+
+    .planet-data {
+        p {
+            color: red;
+        }
+    }
+}

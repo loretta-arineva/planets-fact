@@ -30,16 +30,18 @@ const PlanetBrief = ({ imgUrl, planet, specs }) => {
     }, [specs]);
    
     return (
-        <div>
+        <div className="planet-overview__container">
             <div className="planet-image__container">
-                <img src={activePlanet.images[state.imgUrl]} alt="" />
+                <img src={activePlanet.images[state.imgUrl]} alt="" className={activePlanet.name.toLowerCase()}/>
                 {specs === "surface" ? (
                 <img src={activePlanet.images["geology"]} alt="" />
 
                 ): ""}
             </div>
             <div className="planet-text__container">
+                <h1>{activePlanet.name}</h1>
                 <p>{activePlanet[specs].content}</p>
+                <p className="source">Source: <a className="source-link" href={activePlanet[specs].source} target="_blank" rel="noopener noreferrer">Wikipedia</a></p>
             </div>
         </div>
     )

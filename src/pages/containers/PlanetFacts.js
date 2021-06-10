@@ -7,12 +7,14 @@ import PlanetMetaData from '../components/PlanetFactsComponents/PlanetMetaData';
 
 const PlanetFacts = () => {
     const { planet, specs } = useParams();
-   
+
     return (
         <section id="planet-facts">
             <PlanetNavigation planet={planet || "mercury"} />
-            <PlanetBrief planet={planet || "mercury"} specs={specs || "overview"} />
-            <PlanetMetaData planet={planet || "mercury"} />
+            <div className="planet-main__container">
+                <PlanetBrief planet={planet || "mercury"} specs={specs || "overview"} />
+                <PlanetMetaData planet={planet || "mercury"} />
+            </div>
         </section>
     )
 }
