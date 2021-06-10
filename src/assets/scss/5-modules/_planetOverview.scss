@@ -3,12 +3,20 @@
 
     .planet-image__container {
         margin: 80px 0;
+        position: relative;
 
+        .geology-image {
+            width: 60px;
+            position: absolute;
+            left: calc(50% - 28px);
+            bottom: -30px;
+        }
         .mercury {
-            width: 115px;
+            width: 120px;
         }
 
     }
+
 
     .planet-text__container {
         text-align: center;

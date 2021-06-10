@@ -34,7 +34,7 @@ const PlanetBrief = ({ imgUrl, planet, specs }) => {
             <div className="planet-image__container">
                 <img src={activePlanet.images[state.imgUrl]} alt="" className={activePlanet.name.toLowerCase()}/>
                 {specs === "surface" ? (
-                <img src={activePlanet.images["geology"]} alt="" />
+                <img src={activePlanet.images["geology"]} alt="" className="geology-image"/>
 
                 ): ""}
             </div>
