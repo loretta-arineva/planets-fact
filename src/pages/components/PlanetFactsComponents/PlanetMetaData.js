@@ -9,7 +9,7 @@ const PlanetMetaData = ({ planet }) => {
 
     console.log(activePlanet);
     return (
-        <div className="planet-data__container">
+        <div className="planet-metadata__container">
             <PlanetDataList data={activePlanet.rotation}>Rotation time</PlanetDataList>
             <PlanetDataList data={activePlanet.revolution}>Revolution time</PlanetDataList>
             <PlanetDataList data={activePlanet.radius}>Radius</PlanetDataList>

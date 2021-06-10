@@ -43,7 +43,7 @@
     }
 
     // Planet Data
-    .planet-data__container {
+    .planet-metadata__container {
         @include flexItem(space-evenly, center, row);
 
         .planet-data--list__container {
@@ -70,6 +70,7 @@
     header {
         @include flexItem(space-between, center, row);
         padding: 25px 35px;
+
         .navigation__header {
             width     : fit-content;
             margin-top: 0;
@@ -84,6 +85,38 @@
                         margin-right: 0;
                     }
                 }
+            }
+        }
+    }
+
+    // ----- Planet content -----
+    #planet-facts {
+        .planet-overview__container {
+            margin: 50px 0;
+            flex-direction : row;
+            justify-content: space-between;
+
+            .planet-image__container {
+                width: 50%;
+
+                img {
+                    margin: 0 auto;
+                    display: block;
+                }
+            }
+
+            .planet-data__container {
+                flex-direction: column;
+                align-items: start;
+                bottom: 0;
+                width         : 40%;
+
+                .planet-text__container {
+                    width: 80%;
+                }
+            }
+       
+            .planet-metadata__container {
             }
         }
     }
