@@ -1,0 +1,48 @@
+.planet-overview__container {
+    .planet-image__container {
+        
+        &:has(img) {
+            // margin: 80px 0;
+        }
+
+        .mercury {
+            margin: 80px 0;
+            width : 120px;
+        }
+
+        .venus {
+            margin: 60px 0 70px;
+            width : 160px;
+        }
+
+        .earth {
+            margin: 50px 0 80px;
+            width : 180px;
+        }
+
+        .mars {
+            margin: 60px 0 80px;
+            width : 130px;
+        }
+
+        .jupiter {
+            margin: 20px 0 30px;
+            width : 235px;
+        }
+
+        .saturn {
+            margin: 10px 0 20px;
+            width : 270px;
+        }
+
+        .uranus {
+            margin: 50px 0 70px;
+            width : 180px;
+        }
+
+        .neptune {
+            margin: 40px 0 60px;
+            width : 180px;
+        }
+    }
+}
