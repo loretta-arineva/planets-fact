@@ -36,28 +36,32 @@
                 width     : 48%;
             }
         }
-    }
 
-    .planet-main__container {
-        padding: 20px 35px;
-    }
+        .planet-main__container {
+            padding: 20px 35px;
+        }
 
-    // Planet Data
-    .planet-metadata__container {
-        @include flexItem(space-evenly, center, row);
+        // Planet Data
+        .planet-metadata__container {
+            @include flexItem(space-evenly, center, row);
+            gap       : 20px;
+            margin-top: 50px;
 
-        .planet-data--list__container {
-            flex-direction: column;
-            align-items   : flex-start;
-            width         : 160px;
-            padding       : 15px 15px;
+            .planet-data--list__container {
+                flex-direction: column;
+                align-items   : flex-start;
+                padding       : 15px 15px;
+                width         : 20%;
+                min-width     : 150px;
+                max-width     : 270px;
 
-            h3 {
-                letter-spacing: 2px;
-            }
+                h3 {
+                    letter-spacing: 2px;
+                }
 
-            p {
-                font-size: 24px;
+                p {
+                    font-size: 24px;
+                }
             }
         }
     }
@@ -92,7 +96,7 @@
     // ----- Planet content -----
     #planet-facts {
         .planet-overview__container {
-            margin: 50px 0;
+            margin         : 50px 0;
             flex-direction : row;
             justify-content: space-between;
 
@@ -100,23 +104,36 @@
                 width: 50%;
 
                 img {
-                    margin: 0 auto;
+                    margin : 0 auto;
                     display: block;
+                }
+
+                .geology-image {
+                    bottom: -50px;
+                    left  : calc(50% - 40px);
+                    width : 80px;
                 }
             }
 
             .planet-data__container {
                 flex-direction: column;
-                align-items: start;
-                bottom: 0;
+                align-items   : start;
+                bottom        : 0;
                 width         : 40%;
 
                 .planet-text__container {
                     width: 80%;
                 }
             }
-       
-            .planet-metadata__container {
+
+            .planet-main__container {
+
+                .planet-metadata__container {
+                    // @include flexItem(center, center, row);
+                    // justify-content: center;
+                    // gap            : 50px;
+                    margin-top: 150px;
+                }
             }
         }
     }
