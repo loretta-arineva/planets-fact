@@ -171,3 +171,96 @@
         }
     }
 }
+
+.navigation__planets {
+
+    &.mercury {
+
+        ul {
+            a {
+                &.selected {
+                    border-bottom: 4px solid $mercury;
+                }
+            }
+        }
+    }
+
+    &.venus {
+
+        ul {
+            a {
+                &.selected {
+                    border-bottom: 4px solid $venus;
+                }
+            }
+        }
+    }
+
+    &.earth {
+
+        ul {
+            a {
+                &.selected {
+                    border-bottom: 4px solid $earth;
+                }
+            }
+        }
+    }
+
+    &.mars {
+
+        ul {
+            a {
+                &.selected {
+                    border-bottom: 4px solid $mars;
+                }
+            }
+        }
+    }
+
+    &.jupiter {
+
+        ul {
+            a {
+                &.selected {
+                    border-bottom: 4px solid $jupiter;
+                }
+            }
+        }
+    }
+
+    &.saturn {
+
+        ul {
+            a {
+                &.selected {
+                    border-bottom: 4px solid $mercury;
+                }
+            }
+        }
+    }
+
+    &.uranus {
+
+        ul {
+            a {
+                &.selected {
+                    border-bottom: 4px solid $uranus;
+                }
+            }
+        }
+    }
+
+    &.neptune {
+
+        ul {
+            a {
+                &.selected {
+                    border-bottom: 4px solid $neptune;
+                }
+            }
+        }
+    }
+
+
+}
