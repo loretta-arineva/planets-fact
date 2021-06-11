@@ -264,3 +264,82 @@
 
 
 }
+
+
+// Side drawer planets
+
+.navigation__side-drawer {
+    li {
+        &.mercury {
+
+            &::before {
+                background-color: $mercury;
+            }
+        }
+    }
+
+    li {
+        &.venus {
+            &::before {
+                background-color: $venus;
+            }
+        }
+    }
+
+    li {
+        &.earth {
+            &::before {
+                background-color: $earth;
+            }
+        }
+    }
+
+    li {
+        &.venus {
+            &::before {
+                background-color: $venus;
+            }
+        }
+    }
+
+    li {
+        &.mars {
+            &::before {
+                background-color: $mars;
+            }
+        }
+    }
+
+    li {
+        &.jupiter {
+            &::before {
+                background-color: $jupiter;
+            }
+        }
+    }
+
+    li {
+        &.saturn {
+            &::before {
+                background-color: $saturn;
+            }
+        }
+    }
+
+    li {
+        &.uranus {
+            &::before {
+                background-color: $uranus;
+            }
+        }
+    }
+
+    li {
+        &.neptune {
+            &::before {
+                background-color: $neptune;
+            }
+        }
+    }
+
+}
