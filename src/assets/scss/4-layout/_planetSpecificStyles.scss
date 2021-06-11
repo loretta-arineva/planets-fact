@@ -1,6 +1,6 @@
 .planet-overview__container {
     .planet-image__container {
-        
+
         .mercury {
             margin: 80px 0;
             width : 120px;
@@ -43,45 +43,127 @@
     }
 }
 
+.navigation__planets--desktop {
+    &.mercury {
+        ul li {
+            &>a {
+                &.selected {
+                    background-color: $mercury;
+                }
+            }
+        }
+    }
+
+    &.venus {
+        ul li {
+            &>a {
+                &.selected {
+                    background-color: $venus;
+                }
+            }
+        }
+    }
+
+    &.earth {
+        ul li {
+            &>a {
+                &.selected {
+                    background-color: $earth;
+                }
+            }
+        }
+    }
+
+    &.mars {
+        ul li {
+            &>a {
+                &.selected {
+                    background-color: $mars;
+                }
+            }
+        }
+    }
+
+    &.jupiter {
+        ul li {
+            &>a {
+                &.selected {
+                    background-color: $jupiter;
+                }
+            }
+        }
+    }
+
+    &.saturn {
+        ul li {
+            &>a {
+                &.selected {
+                    background-color: $saturn;
+                }
+            }
+        }
+    }
+
+    &.uranus {
+        ul li {
+            &>a {
+                &.selected {
+                    background-color: $uranus;
+                }
+            }
+        }
+    }
+
+    &.neptune {
+        ul li {
+            &>a {
+                &.selected {
+                    background-color: $neptune;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 890px) {
     .planet-overview__container {
         .planet-image__container {
-            
+
             .mercury {
                 margin: 80px 0;
                 width : 180px;
             }
-    
+
             .venus {
                 margin: 60px 0 70px;
                 width : 240px;
             }
-    
+
             .earth {
                 margin: 50px 0 80px;
                 width : 260px;
             }
-    
+
             .mars {
                 margin: 60px 0 80px;
                 width : 210px;
             }
-    
+
             .jupiter {
                 margin: 20px 0 30px;
                 width : 345px;
             }
-    
+
             .saturn {
                 margin: 10px 0 20px;
                 width : 380px;
             }
-    
+
             .uranus {
                 margin: 50px 0 70px;
                 width : 260px;
             }
-    
+
             .neptune {
                 margin: 40px 0 60px;
                 width : 250px;
