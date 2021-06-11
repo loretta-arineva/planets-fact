@@ -161,15 +161,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Project Status
 
-
 ### Current
-Setting up styles for larger devices.
+Style touchups.
 
 ### Next steps:
-- [ ] Adding styles for larger devices.
-  - [ ] Adding styles for the header menu.
-  - [ ] Adding styles for the planet data.
-- [ ] Adding planet specific color styles.
+- [X] Adding styles for larger devices.
+  - [X] Adding styles for the header menu.
+  - [X] Adding styles for the planet data.
+- [X] Adding planet specific color styles.
+- [ ] Style touchups.
 - [ ] Adding README screenshots.
 - [ ] Adding a loading component.
 - [ ] Adding animations.
@@ -195,7 +195,7 @@ See live:
 
 ### Goals:  
 
-I have spent a total of 7 hours building this project.
+I have spent a total of 10 hours building this project.
 
 ## Support me
 
