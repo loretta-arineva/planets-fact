@@ -13,7 +13,7 @@
     <a href="https://github.com/loretta-arineva/planets-fact/#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://rest-countries-api-react-redux.netlify.app/">View Demo</a>
+    <a href="https://planets-fact-react.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/loretta-arineva/planets-fact/issues">Report Bug</a>
     ·
@@ -248,7 +248,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>  
   
-<!-- See live: [Rest Countries API: Where in the world](https://rest-countries-api-react-redux.netlify.app/) -->
+See live: [Planets Fact](https://planets-fact-react.netlify.app/))
 
 Project Link: [https://github.com/loretta-arineva/planets-fact](https://github.com/loretta-arineva/planets-fact)
 
@@ -257,4 +257,4 @@ Project Link: [https://github.com/loretta-arineva/planets-fact](https://github.c
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Stack Overflow](https://stackoverflow.com/)
-* [Rest Countries API](https://restcountries.eu/)
+* [Frontendmentor](https://frontendmentor.io/)
