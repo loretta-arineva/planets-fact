@@ -7,7 +7,6 @@ const PlanetMetaData = ({ planet }) => {
         return singlePlanet.name.toLowerCase() === planet;
     });
 
-    console.log(activePlanet);
     return (
         <div className="planet-metadata__container">
             <PlanetDataList data={activePlanet.rotation}>Rotation time</PlanetDataList>

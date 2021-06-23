@@ -18,8 +18,6 @@ const HamburgerMenu = () => {
 
     const openSideDrawerHandler = (event) => {
         dispatch(toggle());
-        console.log('clicked');
-        console.log(state);
         const sidedrawer = document.body.querySelector(".side-drawer");
 
         if (sidedrawer.classList.contains("open")) {
@@ -39,4 +37,4 @@ const HamburgerMenu = () => {
     )
 }
 
-export default HamburgerMenu
+export default HamburgerMenu;

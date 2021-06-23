@@ -5,7 +5,7 @@ import ListItems from '../UI/Navigation/NavSceleton';
 const PlanetFactsNavigation = ({ planet, className }) => {
     const url = `/${planet}`
     const classList = `${className} ${planet}`;
-    console.log(classList);
+
     return (
         <Navigation className={classList}>
             <ListItems urlLink={url + "/overview"}>Overview</ListItems>
