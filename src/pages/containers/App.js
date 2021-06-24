@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import '../../assets/scss/main.scss';
 
@@ -9,22 +9,24 @@ const SideDrawer = React.lazy(() => import('../components/HeaderComponents/SideD
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <SideDrawer />
+    <Suspense fallback={<p>Loading</p>}>
+      <Router>
+        <Header />
+        <SideDrawer />
 
-      <Switch>
-        <Route path="/" >
-          <Redirect to="/mercury/overview" />
-        </Route>
-        <Route path="/:planet/:specs" >
-          <Home />
-        </Route>
-        <Route path="/mercury/overview">
-          <Home />
-        </Route>
-      </Switch>
-    </Router >
+        <Switch>
+          <Route path="/" exact>
+            <Redirect to="/mercury/overview" />
+          </Route>
+          <Route path="/:planet/:specs" >
+            <Home />
+          </Route>
+          <Route path="/mercury/overview" exact>
+            <Home />
+          </Route>
+        </Switch>
+      </Router >
+    </Suspense>
   );
 }
 
