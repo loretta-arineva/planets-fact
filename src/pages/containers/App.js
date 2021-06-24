@@ -1,31 +1,29 @@
 import React from 'react';
-import Header from './Header';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import '../../assets/scss/main.scss';
 
-import Home from './PlanetFacts';
-import SideDrawer from '../components/HeaderComponents/SideDrawer';
+
+const Header = React.lazy(() => import('./Header'));
+const Home = React.lazy(() => import('./PlanetFacts'));
+const SideDrawer = React.lazy(() => import('../components/HeaderComponents/SideDrawer'));
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
-        <SideDrawer />
+      <Header />
+      <SideDrawer />
 
-        <Switch>
-          <Route path="/:planet/:specs" >
-            <Home />
-          </Route>
-          <Route path="/" render={() => {
-            return (
-              <Redirect to="/mercury/overview" />
-            )
-          }}>
-            <Home />
-          </Route>
-        </Switch>
-      </div>
+      <Switch>
+        <Route path="/" >
+          <Redirect to="/mercury/overview" />
+        </Route>
+        <Route path="/:planet/:specs" >
+          <Home />
+        </Route>
+        <Route path="/mercury/overview">
+          <Home />
+        </Route>
+      </Switch>
     </Router >
   );
 }
