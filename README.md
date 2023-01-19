@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/loretta-arineva/planets-fact/">
+  <a href="https://github.com/sudo-ditto/planets-fact/">
     <img src="./public/android-chrome-192x192.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -10,18 +10,18 @@
   <p align="center">
      Front-End Mentor Challenge Solution with React, React Router and SASS (Still in development)
     <br />
-    <a href="https://github.com/loretta-arineva/planets-fact/#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sudo-ditto/planets-fact/#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://planets-fact-react.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/loretta-arineva/planets-fact/issues">Report Bug</a>
+    <a href="https://github.com/sudo-ditto/planets-fact/issues">Report Bug</a>
     ·
-    <a href="https://github.com/loretta-arineva/planets-fact/issues">Request Feature</a>
+    <a href="https://github.com/sudo-ditto/planets-fact/issues">Request Feature</a>
   </p>
 </p>
 
-<a href="https://github.com/loretta-arineva" target="_blank">
+<a href="https://github.com/sudo-ditto" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 <a href="https://linkedin.com/in/loretta-arineva" target="_blank">
@@ -209,14 +209,14 @@ I have spent a total of 10 hours building this project.
 
 Planets facts:
 
-_For more examples, please refer to the [Documentation](https://github.com/loretta-arineva/planets-fact)_
+_For more examples, please refer to the [Documentation](https://github.com/sudo-ditto/planets-fact)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/loretta-arineva/planets-fact/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/sudo-ditto/planets-fact/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
